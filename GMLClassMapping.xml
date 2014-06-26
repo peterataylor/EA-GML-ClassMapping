@@ -205,5 +205,7 @@
 	<Class name="PT_FreeText" propertyType="gmd:PT_FreeText_PropertyType"/>
 	<Class name="PT_Locale" propertyType="gmd:PT_Locale_PropertyType"/>
 	<Class name="LocalisedCharacterString" propertyType="gmd:LocalisedCharacterString_PropertyType"/>
+	<!-- OGC SWE Common 2.0 -->
+	<Class name="Quantity" element="swe:Quantity" type="swe:QuantityType" propertyType="swe:QuantityPropertyType"/>
 	<!-- add more as required -->
 </ClassMapping>
