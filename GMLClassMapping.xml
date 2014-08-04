@@ -207,5 +207,24 @@
 	<Class name="LocalisedCharacterString" propertyType="gmd:LocalisedCharacterString_PropertyType"/>
 	<!-- OGC SWE Common 2.0 -->
 	<Class name="Quantity" element="swe:Quantity" type="swe:QuantityType" propertyType="swe:QuantityPropertyType"/>
+	<!-- OGC WaterML 2.0 Part 1 Timeseries -->
+	<Class name="DocumentMetadata" element="wml2:DocumentMetadata" type="wml2:DocumentMetadataType" propertyType="wml2:DocumentMetadataPropertyType"/>
+	<Class name="ObservationMetadata" element="wml2:ObservationMetadata" type="wml2:ObservationMetadataType" propertyType="wml2:ObservationMetadataPropertyType"/>
+	<Class name="TimeseriesMetadata" element="wml2:TimeseriesMetadata" type="wml2:TimeseriesMetadataType" propertyType="wml2:TimeseriesMetadataPropertyType"/>
+	<Class name="MeasurementTimeseriesMetadata" element="wml2:MeasurementTimeseriesMetadata" type="wml2:MeasurementTimeseriesMetadataType" propertyType="wml2:MeasurementTimeseriesMetadataPropertyType"/>
+	<Class name="PointMetadata" element="wml2:TVPMetadata" type="wml2:TVPMetadataType" propertyType="wml2:TVPMetadataPropertyType"/>
+	<Class name="MeasurementPointMetadata" element="wml2:TVPMeasurementMetadata" type="wml2:TVPMeasurementMetadataType" propertyType="wml2:TVPMeasurementMetadataPropertyType"/>
+	<Class name="Collection" element="wml2:Collection" type="wml2:CollectionType" propertyType="wml2:CollectionPropertyType"/>
+	<Class name="MeasurementTimeseriesTVPObservation" element="om:OM_Observation" type="om:OM_ObservationType" propertyType="om:OM_ObservationPropertyType"/>
+	<Class name="TimeseriesTVPObservation" element="om:OM_Observation" type="om:OM_ObservationType" propertyType="om:OM_ObservationPropertyType"/>
+	<Class name="ObservationProcess" element="wml2:ObservationProcess" type="wml2:ObservationProcessType" propertyType="wml2:ObservationProcessPropertyType"/>
+	<Class name="MonitoringPoint" element="wml2:MonitoringPoint" type="wml2:MonitoringPointType" propertyType="wml2:MonitoringPointPropertyType"/>
+	<Class name="TimeseriesTVP" element="wml2:Timeseries" type="wml2:TimeseriesType" propertyType="wml2:TimeseriesPropertyType"/>
+	<Class name="MeasurementTimeseriesTVP" element="wml2:MeasurementTimeseries" type="wml2:MeasurementTimeseriesType" propertyType="wml2:MeasurementTimeseriesPropertyType"/>
+	<Class name="CategoricalTimeseriesTVP" element="wml2:CategoricalTimeseries" type="wml2:CategoricalTimeseriesType" propertyType="wml2:CategoricalTimeseriesPropertyType"/>
+	<Class name="TimeValuePair" element="wml2:TimeValuePair" type="wml2:TimeValuePairType" propertyType="wml2:TimeValuePairPropertyType"/>
+	<Class name="MeasurementTimeValuePair" element="wml2:MeasurementTVP" type="wml2:MeasurementTVPType" propertyType="wml2:MeasurementTVPPropertyType"/>
+	<Class name="CategoricalTimeValuePair" element="wml2:CategoricalTVP" type="wml2:CategoricalTVPType" propertyType="wml2:CategoricalTVPPropertyType"/>
+	<Class name="Integer" type="integer" propertyType="integer" typeContent="simple"/>
 	<!-- add more as required -->
 </ClassMapping>
