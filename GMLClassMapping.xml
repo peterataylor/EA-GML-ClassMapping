@@ -225,6 +225,5 @@
 	<Class name="TimeValuePair" element="wml2:TimeValuePair" type="wml2:TimeValuePairType" propertyType="wml2:TimeValuePairPropertyType"/>
 	<Class name="MeasurementTimeValuePair" element="wml2:MeasurementTVP" type="wml2:MeasurementTVPType" propertyType="wml2:MeasurementTVPPropertyType"/>
 	<Class name="CategoricalTimeValuePair" element="wml2:CategoricalTVP" type="wml2:CategoricalTVPType" propertyType="wml2:CategoricalTVPPropertyType"/>
-	<Class name="Integer" type="integer" propertyType="integer" typeContent="simple"/>
 	<!-- add more as required -->
 </ClassMapping>
