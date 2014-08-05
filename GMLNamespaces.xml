@@ -18,6 +18,7 @@
 		<Namespace xmlns="gpp" targetNamespace="http://xmlns.geosciml.org/PhysicalProperties/3.0" xsdDocument="http://schemas.geosciml.org/physicalproperties/3.0/physicalProperties.xsd"/>
 		<Namespace xmlns="trs" targetNamespace="http://xmlns.geosciml.org/TemporalReferenceSystem/3.0" xsdDocument="http://schemas.geosciml.org/temporalreferencesystem/3.0/trs.xsd"/>
 	  <Namespace xmlns="swe" targetNamespace="http://www.opengis.net/swe/2.0" xsdDocument="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
+	  <Namespace xmlns="wml2" targetNamespace="http://www.opengis.net/waterml/2.0" xsdDocument="http://schemas.opengis.net/waterml/2.0/waterml2.xsd"/>
 		<!-- add more as required -->
 	</GMLNS>
 	<GMLNS version="3.3">
@@ -47,5 +48,6 @@
 		<Namespace xmlns="gpp" targetNamespace="http://xmlns.geosciml.org/PhysicalProperties/3.0" xsdDocument="http://schemas.geosciml.org/physicalproperties/3.0/physicalProperties.xsd"/>
 		<Namespace xmlns="trs" targetNamespace="http://xmlns.geosciml.org/TemporalReferenceSystem/3.0" xsdDocument="http://schemas.geosciml.org/temporalreferencesystem/3.0/trs.xsd"/>
 	  <Namespace xmlns="swe" targetNamespace="http://www.opengis.net/swe/2.0" xsdDocument="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
+	  <Namespace xmlns="wml2" targetNamespace="http://www.opengis.net/waterml/2.0" xsdDocument="http://schemas.opengis.net/waterml/2.0/waterml2.xsd"/>
 	</GMLNS>
 </Namespaces>
